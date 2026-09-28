@@ -1,0 +1,16 @@
+﻿using ProyectoPersonal.Datos.Entities;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ProyectoPersonal.Datos.Interfaces
+{
+    public interface ITblUsuarioRepository
+    {
+        public Task Crear(TblUsuario usuario);
+        public Task<TblUsuario> ObtenerPorId(int idUsuario);
+        public Task<List<TblUsuario>> ObtenerTodos();
+        public Task Actualizar(TblUsuario usuario);
+        public Task Eliminar(int idUsuario);
+    }
+}

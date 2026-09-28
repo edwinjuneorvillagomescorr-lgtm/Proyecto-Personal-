@@ -1,0 +1,6 @@
+@ProyectoPersonal_UEBgear_HostAddress = http://localhost:5232
+
+GET {{ProyectoPersonal_UEBgear_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

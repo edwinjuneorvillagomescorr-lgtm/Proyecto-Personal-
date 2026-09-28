@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ProyectoPersonal.Datos/ProyectoPersonal.Datos.csproj" />
+  <Project Path="ProyectoPersonal.Negocio/ProyectoPersonal.Negocio.csproj" />
+  <Project Path="ProyectoPersonal_UEBgear/ProyectoPersonal_UEBgear.csproj" />
+</Solution>
